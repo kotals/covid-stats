@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.country_content{
+  margin: 65px 150px 0;
+    
+}
+
+.content{
+  display: flex;
+  margin: 0 -45px;
+  margin-top: 9px;
+  font-size: 14px;
+}
+
+.items{
+  
+  margin: 0 45px;
+}
+
+.title{
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+
+
+.items_item{
+  margin: 14px 0;
+  font-size: 14px;
+  font-weight: 300;
+
+
+}
+.item_title{
+  font-size: 16px;
+
+}
+
+
+.red{
+  color: #EB5757;
+}
+
+.gray{
+  color: #333333;
+  opacity:0.5;
+}
+
+.back{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.back:hover{
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
