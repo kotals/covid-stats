@@ -31,7 +31,7 @@ export default function Country({ currentCountry }) {
             <div className={style.items_item}>Болеют в активной стадии: <span className={style.info}> {filtered(country.cases.active)}</span></div>
             <div className={style.items_item}>Критическое состояние : <span className={style.info}>{filtered(country.cases.critical)}</span></div>
             <div className={style.items_item}>Выздоровели: <span className={style.info}>{country.cases.recovered}</span></div>
-        <div style={{marginTop:'100px'}}><Link href={`/covid-stats`} ><a className={style.back}>Назад</a></Link></div>
+        <div style={{marginTop:'100px'}}><Link href={`/`} ><a className={style.back}>Назад</a></Link></div>
           </div>
 
           <div className={style.items}>
